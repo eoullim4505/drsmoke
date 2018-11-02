@@ -23,13 +23,17 @@ body {
     color: #6B6B6B;
 }
 .header p {
+    position: relative;
+    top: -30px;
     float: right;
+    text-align: center;
+    font-size: 1.2rem;
 }
-.header p a, .sc_btn, #search_text, tbody a, #re_search {
+.header p a#gotoblog, .sc_btn, #search_text, tbody a, #re_search {
     border-radius: 3px;
     padding: 8px 16px;
 }
-.header p a:hover, .sc_btn:hover, #search_text:hover, tbody a:hover, #re_search:hover {
+.header p a#gotoblog:hover, .sc_btn:hover, #search_text:hover, tbody a:hover, #re_search:hover {
     opacity: 0.7;
     /* border-color: #2070A8; */
     border-color: #e67979;
@@ -37,6 +41,9 @@ body {
     background-color: #e67979;
     color: #ffffff;
     transition: all .2s;
+}
+.header #blog_icon {
+    width: 300px;
 }
 .content {
     margin-bottom: 50px;
